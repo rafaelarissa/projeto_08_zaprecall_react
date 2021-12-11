@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #FFFFFF;
+    margin: 54px 0 0;
+    font-family: 'Roboto', sans-serif;
+    color: #262626;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+.home .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 234px;
+    margin-bottom: 260px;   
+}
+
+.home button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    
+}
+
