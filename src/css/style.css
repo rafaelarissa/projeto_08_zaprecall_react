@@ -4,7 +4,7 @@
 
 body {
     background-color: #FFFFFF;
-    margin: 54px 0 0;
+    
     font-family: 'Roboto', sans-serif;
     color: #262626;
     font-weight: 400;
@@ -26,7 +26,48 @@ body {
     border: none;
     background: transparent;
     cursor: pointer;
+}
 
+.flashcards .logo-mini img{
+    margin: 26px auto auto 26px;
+}
+
+.flashcards .card{
+    display: block;
+    position: relative;
+    margin: 224px auto auto auto;
+
+    width: 392px;
+    height: 575.75px;
+
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.flashcards .card img{
+    position: absolute;
+    bottom: 19.77px;
+    left: 330px;
+    right: 16.59px;
+}
+
+.flashcards .card .currentPosition{
+    display: flex;
+    justify-content: right;
+    margin-right: 12px;
+    padding-top: 13px;
+
+    font-size: 18px;
+
+}
+
+.flashcards .card .title{
+    display:flex;
+    justify-content: center;
+    margin-top: 267px;
+
+    font-size: 28px;
     
+    font-weight: bold;
 }
 

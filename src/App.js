@@ -1,9 +1,14 @@
+import Flashcards from "./Components/Flashcards";
 import Home from "./Components/Home";
 
-export default function App(){
-    return(
+import { useState } from "react";
+
+export default function App() {
+    const [start, setStart] = useState(false);
+
+    return (
         <>
-            <Home/>
+            {start ? <Flashcards /> : <Home setStart={setStart} />}
         </>
     )
 }
