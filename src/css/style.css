@@ -35,7 +35,7 @@ body {
 .flashcards .card{
     display: block;
     position: relative;
-    margin: 224px auto auto auto;
+    margin: 7em auto auto auto;
 
     width: 392px;
     height: 575.75px;
@@ -160,3 +160,39 @@ body {
     height: 48px;
 }
 
+.flashcards .success{
+    text-align: center;
+
+    margin-top: 350px;
+}
+
+.flashcards .success h1{
+    font-weight: bold;
+    font-size: 36px;
+
+    padding-bottom: 16px;
+}
+
+.flashcards .success h2{
+    font-size: 22px;
+
+    padding-bottom: 16px;
+}
+
+.flashcards .failure{
+    text-align: center;
+
+    margin-top: 350px;
+}
+
+.flashcards .failure h1{    
+    font-weight: bold;
+    font-size: 36px;
+
+    padding-bottom: 16px;
+}
+
+.flashcards .failure h2{
+    font-size: 22px;
+    
+}

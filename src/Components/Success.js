@@ -10,9 +10,10 @@ export default function Success() {
             <div className="logo-mini">
                 <img src={logoMini} alt="logo mini" />
             </div>
-
-            <h1>PARABÉNS <img src={party} alt="party emote" /></h1>
-            <h2>Você não esqueceu de nenhum flashcard!</h2>
-        </div>
+            <div className="success">
+                <h1>PARABÉNS <img src={party} alt="party emote" /></h1>
+                <h2>Você não esqueceu de nenhum flashcard!</h2>
+            </div>
+        </div >
     )
 }

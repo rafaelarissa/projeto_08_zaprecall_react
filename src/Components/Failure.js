@@ -10,11 +10,11 @@ export default function Failure() {
             <div className="logo-mini">
                 <img src={logoMini} alt="logo mini" />
             </div>
-
-            <h1>Putz.. <img src={sad} alt="sad emote" /></h1>
-            <h2>Você esqueceu alguns flashcards.
-                Não desanime! Na próxima você consegue!
-            </h2>
+            <div className="failure">
+                <h1>Putz.. <img src={sad} alt="sad emote" /></h1>
+                <h2>Você esqueceu alguns flashcards.</h2>
+                <h2>Não desanime! Na próxima você consegue!</h2>
+            </div>
         </div>
     )
 }
