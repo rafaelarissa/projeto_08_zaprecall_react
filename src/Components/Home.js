@@ -10,7 +10,7 @@ export default function Home(props) {
         <div className="container home">
             <div className="logo">
                 <img src={logo} alt="logo" /></div>
-            <button className="start" onClick={() => props.setStart(true)}>
+            <button className="start" onClick={() => props.setScreen(1)} data-identifier="start-zap-recall">
                 <img src={startButton} alt="start button" />
             </button>
         </div>
