@@ -67,7 +67,59 @@ body {
     margin-top: 267px;
 
     font-size: 28px;
-    
     font-weight: bold;
+}
+
+.flashcards .card .answer{
+    display:flex;
+    justify-content: center;
+    margin-top: 267px;
+
+    font-size: 16px;
+}
+
+.flashcards .card .buttonsFlashCard{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 167px 41px 19px 41px;
+    gap: 16.67px;
+}
+
+.flashcards .card .buttonsFlashCard button:nth-child(1){
+    border: 3px solid black;
+    border-radius: 12px;
+    font-size: 10px;
+
+    width: 65px;
+    height: 48px;
+
+}
+
+.flashcards .card .buttonsFlashCard button:nth-child(2){
+    border: 3px solid #F74848;
+    border-radius: 12px;
+    font-size: 10px;
+
+    width: 65px;
+    height: 48px;
+}
+
+.flashcards .card .buttonsFlashCard button:nth-child(3){
+    border: 3px solid #62DB38;
+    border-radius: 12px;
+    font-size: 10px;
+
+    width: 65px;
+    height: 48px;
+}
+
+.flashcards .card .buttonsFlashCard button:nth-child(4){
+    border: 3px solid #FFEF61;
+    border-radius: 12px;
+    font-size: 10px;
+
+    width: 65px;
+    height: 48px;
 }
 
