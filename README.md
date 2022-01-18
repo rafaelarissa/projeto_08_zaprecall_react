@@ -1,6 +1,6 @@
 # ZapRecall - an animated gif
 
-![ZapRecall](https://github.com/rafaelarissa/zaprecall-react/blob/main/zap-recall-demo.gif)
+<img src="https://github.com/rafaelarissa/zaprecall-react/blob/main/zap-recall-demo.gif" width="450" height="736" />
 
 ZapRecall is a flashcard app developed using React.js. The main goal is to read an affirmation or sentence and remember the answer. The app will identify which sentences you had most difficult to remember and keep showing it until you choose the option 'zap!' that is for when you remember. Flashcards are a good way to train memory with Active Recall and Spaced Repetition. 
 
