@@ -7,9 +7,9 @@ You can check de demo version in the following link: zaprecall-react-chi.vercel.
 ## About
 
 Next Features: 
-• Login/Logout
-• Add new deck
-• Add new Flashcard
+- Login/Logout
+- Add new deck
+- Add new Flashcard
 
 
 I build this app with the intention to develop something that is easy, simple, useful way to practice memory. 
